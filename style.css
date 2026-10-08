@@ -61,6 +61,11 @@ button:focus-visible {
     font-weight: 800;
     letter-spacing: -1.6px;
 }
+.brand img {
+    display: block;
+    width: 140px;
+    height: auto;
+}
 .brand span {
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -302,8 +307,8 @@ h2 em {
 }
 .project-title {
     font-family: "Manrope", Arial, sans-serif;
-    font-weight: 600;
-    font-size: clamp(60px, 10vw, 140px);
+    font-weight: 400;
+    font-size: clamp(50px, 8.5vw, 120px);
     letter-spacing: -7px;
     padding: 40px 0 55px;
 }
@@ -639,7 +644,7 @@ h2 em {
         letter-spacing: 1px;
     }
     .project-title {
-        font-size: clamp(46px, 13vw, 78px);
+        font-size: clamp(40px, 11vw, 66px);
         letter-spacing: -3.5px;
         padding: 38px 0;
     }
